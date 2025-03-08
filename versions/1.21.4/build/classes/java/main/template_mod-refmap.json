@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "me/fallenbreath/template_mod/mixins/MinecraftServerMixin": {
+      "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/fallenbreath/template_mod/mixins/MinecraftServerMixin": {
+        "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      }
+    }
+  }
+}

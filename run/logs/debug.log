@@ -1,0 +1,276 @@
+[10:44:56] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.server.Main -> net/minecraft/server/Main
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor main([Ljava/lang/String;)V
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) 20w22a+ detected, patching main method...
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Detected version above 20w22a
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[10:44:56] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[10:44:56] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 35.7 ms
+[10:44:56] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 84.9 ms
+[10:44:56] [main/INFO] (FabricLoader) Loading 5 mods:
+	- fabricloader 0.16.10
+	- java 21
+	- minecraft 1.21.4
+	- mixinextras 0.4.1
+	- template_mod 1.0.0-SNAPSHOT
+[10:44:56] [main/DEBUG] (FabricLoader/Knot) Adding C:\software\github\VirtualItems-Mod\versions\1.21.4\build\resources\main to classpath.
+[10:44:56] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.4.1\8d1a9e96afb990367fa1f904d17580d164da72e3\mixinextras-fabric-0.4.1.jar to classpath.
+[10:44:56] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer me.fallenbreath.template_mod.TemplateMod for mod template_mod (key main)
+[10:44:56] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Attempting to load Fernflower decompiler (Threaded mode)
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)]
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)]
+[10:44:57] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 224 ms
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Compatibility level JAVA_21 specified by template_mod.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2\minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\software\github\VirtualItems-Mod\versions\1.21.4\build\classes\java\main to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\software\github\VirtualItems-Mod\versions\1.21.4\build\resources\main to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\fabric-loom\1.21.4\net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2\mappings.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.4.1\8d1a9e96afb990367fa1f904d17580d164da72e3\mixinextras-fabric-0.4.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.fabricmc\dev-launch-injector\0.2.1+build.8\da8bef7e6e2f952da707f282bdb46882a0fce5e3\dev-launch-injector-0.2.1+build.8.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.13.4\858c6cc78e1f08a885b1613e1d817c829df70a6e\jackson-annotations-2.13.4.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.13.4\cf934c681294b97ef6d80082faeefbe1edadf56\jackson-core-2.13.4.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.13.4.2\325c06bdfeb628cfb80ebaaf1a26cc1eb558a585\jackson-databind-2.13.4.2.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.6.5\e1099981fd15dc4236c4499d82aba1276fb43a9a\oshi-core-6.6.5.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.stephenc.jcip\jcip-annotations\1.0-1\ef31541dd28ae2cefdd17c7ebf352d93e9058c63\jcip-annotations-1.0-1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.2\c4a06a64e650562f30b7bf9aaec1bfed43aca12b\failureaccess-1.0.2.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\33.3.1-jre\852f8b363da0111e819460021ca693cacca3e8db\guava-33.3.1-jre.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\76.1\215f3a8e936d4069344bd75f2b1368fd58112894\icu4j-76.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.microsoft.azure\msal4j\1.17.2\a6211e3d71d0388929babaa0ff0951b30d001852\msal4j-1.17.2.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.3.10\d15b53a14cf20fdcaa98f731af5dda654452c010\brigadier-1.3.10.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\jtracy\1.0.29\6f07dcb6a2e595c7ee2ca43b67e5d1c018ca0770\jtracy-1.0.29.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\jtracy\1.0.29\e05332cb31c7ae582dc8d8bd1bffd47c2ff7636f\jtracy-1.0.29-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nimbusds\content-type\2.3\e3aa0be212d7a42839a8f3f506f5b990bcce0222\content-type-2.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nimbusds\lang-tag\1.7\97c73ecd70bc7e8eefb26c5eea84f251a63f1031\lang-tag-1.7.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nimbusds\nimbus-jose-jwt\9.40\42b1dfa0360e4062951b070bac52dd8d96fd7b38\nimbus-jose-jwt-9.40.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nimbusds\oauth2-oidc-sdk\11.18\7c7ec4f4066625ff07a711ad856fa04da1ff9de\oauth2-oidc-sdk-11.18.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.17.1\973638b7149d333563584137ebf13a691bb60579\commons-codec-1.17.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.17.0\ddcc8433eb019fb48fe25207c0278143f3e1d7e2\commons-io-2.17.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.3.4\b9fc14968d63a8b8a8a2c1885fe3e90564239708\commons-logging-1.3.4.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.115.Final\d5daf1030e5c36d198caf7562da2441a97ec0df6\netty-buffer-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.115.Final\d326bf3a4c785b272da3db6941779a1bd5448378\netty-codec-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.115.Final\9da10a9f72e3f87e181d91b525174007a6fc4f11\netty-common-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.115.Final\d54dbf68b9d88a98240107758c6b63da5e46e23a\netty-handler-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.115.Final\e33b4d476c03975957f5d8d0319d592bf2bc5e96\netty-resolver-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.115.Final\11fea00408ecbd8b8d1f0698d708e37db4a01841\netty-transport-classes-epoll-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.115.Final\dc96c67d06cd6b5eb677f2728f27bf2e3d9a7284\netty-transport-native-unix-common-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.115.Final\39cef77c1a25908ac1abf4960c2e789f0bf70ff9\netty-transport-4.1.115.Final.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.15\1e885b40c9563ab0d3899b871fd0b30e958705dc\fastutil-8.5.15.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.15.0\86b502cad57d45da172b5e3231c537b042e296ef\jna-platform-5.15.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.15.0\1ee1d80ff44f08280188f7c0e740d57207841ac\jna-5.15.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minidev\accessors-smart\2.5.1\19b820261eb2e7de7d5bde11d1c06e4501dd7e5f\accessors-smart-2.5.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minidev\json-smart\2.5.1\4c11d2808d009132dfbbf947ebf37de6bf266c8e\json-smart-2.5.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.27.1\a19151084758e2fbb6b41eddaa88e7b8ff4e6599\commons-compress-1.27.1.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.17.0\b17d2136f0460dcc0d2016ceefca8723bdf4ee70\commons-lang3-3.17.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.14\1194890e6f56ec29177673f2f12d0b8e627dec98\httpclient-4.5.14.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.8\fc0a71dad90a2cf41d82a76156a0e700af8e4f8d\joml-1.10.8.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\81091b006dbb43fab04c8c638e9ac87c51b4096d\lwjgl-freetype-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\82028265a0a2ff33523ca75137ada7dc176e5210\lwjgl-freetype-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\e449e28b4891fc423c54c85fbc5bb0b9efece67a\lwjgl-glfw-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\f27018dc74f6289574502b46cce55d52817554e2\lwjgl-glfw-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\ba1f3fed0ee4be0217eaa41c5bbfb4b9b1383c33\lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\f6063b6e0f23be483c5c88d84ce51b39dc69126c\lwjgl-jemalloc-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\cf83862ae95d98496b26915024c7e666d8ab1c8f\lwjgl-openal-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\8e0615235116b9e4160dfe87bec90f5f6378bf72\lwjgl-openal-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\e6c1eec8be8a71951b830a4d69efc01c6531900c\lwjgl-opengl-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\d32d833dcaa2f355a886eaf21f0408b5f03241d\lwjgl-opengl-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\a584ab44de569708871f0a79561f4d8c37487f2c\lwjgl-stb-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\b5c874687b9aac1a936501d4ed2c49567fd1b575\lwjgl-stb-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a88c494f3006eb91a7433b12a3a55a9a6c20788b\lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\c336c84ee88cccb495c6ffa112395509e7378e8a\lwjgl-tinyfd-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\a5ed18a2b82fc91b81f40d717cb1f64c9dcb0540\lwjgl-3.3.3-natives-windows.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\e9aca8c5479b520a2a7f0d542a118140e812c5e8\lwjgl-3.3.3-natives-windows-arm64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.115.Final\a6cc58c4a259bad159cbb06120cea9b3474e86a0\netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.115.Final\a80b32f98ceb4e27958c0ceaf22ddad9ea6c0d4e\netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.20.0\8f15415b022a25b473e8e16c28ae913186ffb9c4\jline-reader-3.20.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.20.0\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\jline-terminal-3.20.0.jar to classpath.
+[10:44:57] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'preLaunch'
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Selecting config template_mod.mixins.json
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixinextras.init.mixins.json
+[10:44:57] [main/DEBUG] (FabricLoader/MixinExtras|Service) com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Preparing template_mod.mixins.json (1)
+[10:44:57] [main/DEBUG] (FabricLoader/Mixin) Preparing mixinextras.init.mixins.json (0)
+[10:44:57] [main/DEBUG] (io.netty.util.internal.logging.InternalLoggerFactory) Using SLF4J as the default logging framework
+[10:44:57] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.level: simple
+[10:44:57] [main/DEBUG] (io.netty.util.ResourceLeakDetector) -Dio.netty.leakDetection.targetRecords: 4
+[10:45:13] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'main'
+[10:45:13] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'server'
+[10:45:14] [main/INFO] (com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:45:14] [Yggdrasil Key Fetcher/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/publickeys
+[10:45:14] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10:45:14] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[10:45:14] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[10:45:14] [main/DEBUG] (FabricLoader/Mixin) Mixing MinecraftServerMixin from template_mod.mixins.json into net.minecraft.server.MinecraftServer
+[10:45:15] [main/DEBUG] (FabricLoader/Mixin) template_mod.mixins.json:MinecraftServerMixin from mod template_mod->@Inject::onRun(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[10:45:15] [main/DEBUG] (FabricLoader/Mixin) template_mod.mixins.json:MinecraftServerMixin from mod template_mod->@Inject::onRun(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[10:45:15] [main/DEBUG] (FabricLoader/Mixin) template_mod.mixins.json:MinecraftServerMixin from mod template_mod->@Inject::onRun(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[10:45:21] [main/INFO] (net.minecraft.recipe.ServerRecipeManager) Loaded 1370 recipes
+[10:45:21] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 1481 advancements
+[10:45:21] [Server thread/INFO] (net.minecraft.util.logging.LoggerPrintStream) [STDERR]: Hello world from mc11500 branch
+[10:45:21] [Server thread/INFO] (net.minecraft.util.logging.LoggerPrintStream) [STDERR]: nbt: {key:"value"}
+[10:45:21] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Starting minecraft server version 1.21.4
+[10:45:21] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Loading properties
+[10:45:21] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Default game type: SURVIVAL
+[10:45:21] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Generating keypair
+[10:45:22] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Starting Minecraft server on *:25567
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) -Dio.netty.noUnsafe: false
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) Java version: 21
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) sun.misc.Unsafe.theUnsafe: available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) sun.misc.Unsafe base methods: all available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) sun.misc.Unsafe.storeFence: available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) java.nio.Buffer.address: available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at knot/io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:332) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at knot/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:325) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:334) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:90) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ClassInitializerUtil.tryLoadClasses(ClassInitializerUtil.java:32) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.epoll.Native.<clinit>(Native.java:83) ~[netty-transport-classes-epoll-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.epoll.Epoll.<clinit>(Epoll.java:40) ~[netty-transport-classes-epoll-4.1.115.Final.jar:?]
+	at knot/net.minecraft.server.ServerNetworkIo.bind(ServerNetworkIo.java:75) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.dedicated.MinecraftDedicatedServer.setupServer(MinecraftDedicatedServer.java:152) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:678) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) java.nio.Bits.unaligned: available, true
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1a677343
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
+	at knot/io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:468) ~[netty-common-4.1.115.Final.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at knot/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:459) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:334) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:90) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.util.internal.ClassInitializerUtil.tryLoadClasses(ClassInitializerUtil.java:32) ~[netty-common-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.epoll.Native.<clinit>(Native.java:83) ~[netty-transport-classes-epoll-4.1.115.Final.jar:?]
+	at knot/io.netty.channel.epoll.Epoll.<clinit>(Epoll.java:40) ~[netty-transport-classes-epoll-4.1.115.Final.jar:?]
+	at knot/net.minecraft.server.ServerNetworkIo.bind(ServerNetworkIo.java:75) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.dedicated.MinecraftDedicatedServer.setupServer(MinecraftDedicatedServer.java:152) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:678) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[minecraft-merged-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent0) java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) sun.misc.Unsafe: available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\2 (java.io.tmpdir)
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) Platform: Windows
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.maxDirectMemory: -1 bytes
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.CleanerJava9) java.nio.ByteBuffer.cleaner(): available
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) -Dio.netty.noPreferDirect: false
+[10:45:22] [Server thread/DEBUG] (io.netty.channel.MultithreadEventLoopGroup) -Dio.netty.eventLoopThreads: 8
+[10:45:22] [Server thread/DEBUG] (io.netty.util.concurrent.GlobalEventExecutor) -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.InternalThreadLocalMap) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[10:45:22] [Server thread/DEBUG] (io.netty.channel.nio.NioEventLoop) -Dio.netty.noKeySetOptimization: false
+[10:45:22] [Server thread/DEBUG] (io.netty.channel.nio.NioEventLoop) -Dio.netty.selectorAutoRebuildThreshold: 512
+[10:45:22] [Server thread/DEBUG] (io.netty.util.internal.PlatformDependent) org.jctools-core.MpscChunkedArrayQueue: available
+[10:45:22] [Server thread/INFO] (net.minecraft.server.ServerNetworkIo) Using default channel type
+[10:45:22] [Server thread/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.processId: 2564 (auto-detected)
+[10:45:22] [Server thread/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv4Stack: false
+[10:45:22] [Server thread/DEBUG] (io.netty.util.NetUtil) -Djava.net.preferIPv6Addresses: false
+[10:45:22] [Server thread/DEBUG] (io.netty.util.NetUtilInitializations) Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[10:45:22] [Server thread/DEBUG] (io.netty.util.NetUtil) Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[10:45:22] [Server thread/DEBUG] (io.netty.channel.DefaultChannelId) -Dio.netty.machineId: 52:54:00:ff:fe:6d:de:a7 (auto-detected)
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numHeapArenas: 8
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.numDirectArenas: 8
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.pageSize: 8192
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxOrder: 9
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.chunkSize: 4194304
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.smallCacheSize: 256
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.normalCacheSize: 64
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimInterval: 8192
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.useCacheForAllThreads: false
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.PooledByteBufAllocator) -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.allocator.type: pooled
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.threadLocalDirectBufferSize: 0
+[10:45:22] [Server thread/DEBUG] (io.netty.buffer.ByteBufUtil) -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[10:45:22] [Server thread/DEBUG] (io.netty.bootstrap.ChannelInitializerExtensions) -Dio.netty.bootstrap.extensions: null
+[10:45:23] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Preparing level "world"
+[10:45:25] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Preparing start region for dimension minecraft:overworld
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:32] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:32] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:33] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-3/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:35] [Worker-Main-3/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-3/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:37] [Worker-Main-3/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:37] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:38] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:38] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:39] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:39] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:40] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:40] [Worker-Main-1/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:41] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:41] [Worker-Main-2/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:42] [Worker-Main-3/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 51%
+[10:45:42] [Server thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Time elapsed: 17109 ms
+[10:45:42] [Server thread/INFO] (net.minecraft.server.dedicated.MinecraftDedicatedServer) Done (18.627s)! For help, type "help"

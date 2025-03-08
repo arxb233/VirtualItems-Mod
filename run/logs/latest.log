@@ -1,0 +1,63 @@
+[10:44:56] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[10:44:56] [main/INFO] (FabricLoader) Loading 5 mods:
+	- fabricloader 0.16.10
+	- java 21
+	- minecraft 1.21.4
+	- mixinextras 0.4.1
+	- template_mod 1.0.0-SNAPSHOT
+[10:44:56] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Attempting to load Fernflower decompiler (Threaded mode)
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[10:44:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[10:45:14] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:45:14] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10:45:21] [main/INFO] (Minecraft) Loaded 1370 recipes
+[10:45:21] [main/INFO] (Minecraft) Loaded 1481 advancements
+[10:45:21] [Server thread/INFO] (Minecraft) [STDERR]: Hello world from mc11500 branch
+[10:45:21] [Server thread/INFO] (Minecraft) [STDERR]: nbt: {key:"value"}
+[10:45:21] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.21.4
+[10:45:21] [Server thread/INFO] (Minecraft) Loading properties
+[10:45:21] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[10:45:21] [Server thread/INFO] (Minecraft) Generating keypair
+[10:45:22] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25567
+[10:45:22] [Server thread/INFO] (Minecraft) Using default channel type
+[10:45:23] [Server thread/INFO] (Minecraft) Preparing level "world"
+[10:45:25] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[10:45:31] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:32] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:32] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:33] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:34] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:35] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:36] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:37] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:37] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:38] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:38] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:39] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:39] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:40] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:40] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:41] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:41] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:42] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[10:45:42] [Server thread/INFO] (Minecraft) Time elapsed: 17109 ms
+[10:45:42] [Server thread/INFO] (Minecraft) Done (18.627s)! For help, type "help"
