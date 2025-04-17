@@ -51,5 +51,6 @@ public class TemplateMod implements ModInitializer
 		ModMetadata metadata = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(RuntimeException::new).getMetadata();
 		MOD_NAME = metadata.getName();
 		MOD_VERSION = metadata.getVersion().getFriendlyString();
+		ScCommand.register();
 	}
 }
